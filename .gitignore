@@ -1,0 +1,6 @@
+# Ignore logs and backup artifacts
+logs/
+outputs/figures/
+*.bak
+*.tmp
+.DS_Store
