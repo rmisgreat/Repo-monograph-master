@@ -1,0 +1,83 @@
+# Phase Output Template
+
+**Phase:** [Phase Number & Role]  
+**Section:** [Section ID]  
+**Version:** [vX.X]  
+**Model:** [Model Name]  
+**Date:** [YYYY-MM-DD]
+
+---
+
+## Summary
+
+[Concise description of output, purpose, and key findings.]
+
+---
+
+## Main Content
+
+[Insert full draft, derivations, explanations, or other phase-appropriate content.]
+
+---
+
+## Checklist
+
+- [ ] Follows file naming convention
+- [ ] Logged in Revision Ledger
+- [ ] Checksum generated
+
+# Error Log Template
+
+**Phase:** Technician  
+**Section:** [Section ID]  
+**Date:** [YYYY-MM-DD]  
+**Auditor:** [Model/Name]
+
+---
+
+## Errors/Criticisms
+
+
+
+| Line | Description | Type (Math/Physics/Text) | Correction |
+|------|-------------|-------------------------|------------|
+|      |             |                         |            |
+
+---
+
+## Notes
+
+[Additional comments, context, or unresolved issues.]
+
+# Data Log Template
+
+**Phase:** Researcher  
+**Section:** [Section ID]  
+**Date:** [YYYY-MM-DD]  
+**Auditor:** [Model/Name]
+
+---
+
+## Data Points and Citations
+
+| Claim | Source (DOI/URL) | Date Verified | Consistency Index |
+|-------|------------------|---------------|------------------|
+
+---
+
+## BibTeX Entries
+
+[Insert BibTeX blocks as needed.]
+
+# Figure Metadata Template
+
+**Figure:** [Figure Name/Number]  
+**Section:** [Section ID]  
+**Version:** [vX.X]  
+**Date:** [YYYY-MM-DD]  
+**Caption:** [Full descriptive caption]
+
+---
+
+- **DOI/URL:** [if applicable]
+- **Revision hash:** [SHA-256]
