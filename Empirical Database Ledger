@@ -1,0 +1,23 @@
+# Empirical Database Ledger
+
+For each empirical data entry, include:
+
+- Section/Phase
+- Source (DOI or URL)
+- Date of Verification
+- Revalidation Due (default: +90 days)
+- Cross-citation consistency index (≥ 0.95)
+- SHA-256 checksum
+
+---
+
+## Example Entry
+
+- **Section:** II-B.4
+- **Source:** https://doi.org/10.1038/nphys1170
+- **Verified:** 2025-10-23
+- **Revalidate By:** 2026-01-21
+- **Consistency Index:** 0.97
+- **Checksum:** [sha256]
+
+---
