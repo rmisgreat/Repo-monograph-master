@@ -1,0 +1,20 @@
+# Revision Ledger
+
+## Instructions
+- Log every significant change to any phase output, log, or ledger entry.
+- For each entry, include:
+  - Date
+  - Author/Model
+  - Description of change
+  - SHA-256 hash of changed file(s)
+
+---
+
+## Example Entry
+
+- **Date:** 2025-10-23
+- **Author:** rmisgreat
+- **Description:** Initial commit of charter and templates.
+- **SHA-256:** [checksum]
+
+---
