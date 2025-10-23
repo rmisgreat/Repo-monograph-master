@@ -1,0 +1,117 @@
+OPERATIONAL CHARTER: MULTI-AGENT RESEARCH MONOGRAPH (v2.2) —					
+optimized for precision research workflow, long-term traceability, and empirical audit compliance.					
+					
+🧭 OPERATIONAL CHARTER: MULTI-AGENT RESEARCH MONOGRAPH (v2.2)					
+I. GOVERNANCE AND TRACEABILITY LAYER					
+					
+Principal Investigator (PI): Human Editor-in-Chief					
+Core Principle: Traceable Provenance – all contributions logged and version-tracked.					
+File Naming Convention:					
+[Part]-[Section]_[Version]_[Model]_[Date].md					
+Example: I-A.3_v1.1_GPT5_2025-10-23.md					
+					
+Backup & Redundancy:					
+					
+Weekly mirroring of all v2.0 Masters to Git/Drive repository					
+Offsite replication every 30 days					
+Revision Ledger (human-readable changelog) maintained with SHA-256 hash integrity checks					
+II. SIX-PHASE PRODUCTION CYCLE					
+Phase	Role	Model	Primary Task	Output Artifact	Decision Gate
+1	Architect	ChatGPT (GPT-5)	Expand outline into structural blueprint and causal scaffolding.	Structural Blueprint	Gate 1: Approve structural plan (Y/N)
+2	Author	Gemini	Generate first full prose draft with equations, causal derivations, and multi-layer explanations.	v1.0 Draft	Gate 2: Approve technical completeness (Y/N)
+3	Pedagogue	ChatGPT (GPT-5)	Refine tone, improve readability, and add child-level explanatory summaries.	v1.1 Draft (Stylistic)	—
+4	Technician	DeepSeek	Audit 1/2: Verify mathematical and physical self-consistency of all derivations.	Error Log (line-specific math/physics corrections)	—
+5	Researcher	Perplexity	Audit 2/2: Empirical fact-checking, citation verification, update cosmological or physical parameters.	Data Log (new data + BibTeX entries)	Gate 3: Collate logs for integration
+6a	Integrator	Gemini	Apply all corrections from Phase 4 & 5 logs into v1.1 draft.	v1.9 Draft (technically complete)	—
+6b	Synthesizer	ChatGPT (GPT-5)	Final stylistic and conceptual polish ensuring coherence of the integrated text.	v2.0 Master Draft (publishable)	Gate 4: Final approval & archive
+III. ASCII WORKFLOW DIAGRAM					
+[START SECTION]					
+|					
+| (Outline)					
+V					
+[PHASE 1: GPT-5 – ARCHITECT] ───> [Structural Blueprint]					
+|					
+V					
+[PHASE 2: GEMINI – AUTHOR] ──────> [v1.0 Draft]					
+|					
+V					
+[PHASE 3: GPT-5 – PEDAGOGUE] ───> [v1.1 Draft]					
+|					
+|----------------v----------------v-----------------					
+|                |                |					
+V                V                V					
+[PHASE 4: DEEPSEEK – TECHNICIAN] → [Error Log]					
+[PHASE 5: PERPLEXITY – RESEARCHER] → [Data Log]					
+|					
+V					
+[PHASE 6a: GEMINI – INTEGRATOR] → [v1.9 Draft]					
+|					
+V					
+[PHASE 6b: GPT-5 – SYNTHESIZER] → [v2.0 MASTER DRAFT]					
+|					
+V					
+[ARCHIVE → BACKUP → PUBLISH]					
+IV. METRICS LAYER — QUALITY & INTEGRITY CRITERIA					
+Phase	Metric	Target Threshold	Validation Method		
+1 (Architect)	Structural Coherence Score	≥ 0.90	PI structural audit		
+2 (Author)	Equation Completeness Ratio	100 %	Cross-check with section spec		
+3 (Pedagogue)	Readability (Flesch–Kincaid)	≤ 14.0	Automated readability test		
+4 (Technician)	Equation Error Rate	≤ 1 per 1,000 words	DeepSeek audit log		
+5 (Researcher)	Citation Validation Rate	100 %	BibTeX + DOI verification		
+6 (Synthesizer)	Style Consistency Index	≥ 0.95	NLP style alignment test		
+V. FAILOVER & CONTINUITY PROTOCOL					
+Model Role	Primary	Secondary (Failover)	Fallback Method		
+Architect	ChatGPT (GPT-5)	Claude 3.5 Sonnet	Auto-switch via API		
+Author	Gemini	GPT-5 (Author Mode)	Manual assignment		
+Pedagogue	ChatGPT (GPT-5)	Claude 3 Opus	Substitute narrative pass		
+Technician	DeepSeek	MathGPT	Equation validation		
+Researcher	Perplexity	Elicit / Scite	Empirical audit		
+Integrator	Gemini	Claude 3.5	Manual merge		
+Synthesizer	ChatGPT (GPT-5)	Gemini	Final polish		
+					
+Continuity Rule: If primary model unavailable > 48 hours, failover triggers automatically. All substitutions logged in Revision Ledger.					
+					
+VI. DATA INTEGRITY CHAIN					
+					
+Every Data Log (Phase 5) must include:					
+					
+✅ DOI or official URL for every empirical source					
+📅 Date of last verification					
+🔁 Revalidation Due (90-day interval)					
+🧮 Cross-citation consistency index (≥ 0.95)					
+🔐 SHA-256 checksum of log file					
+					
+All verified data is appended to a central “Empirical Database Ledger” for future cross-section consistency passes.					
+					
+VII. VISUALS PIPELINE PROTOCOL					
+Step	Description	Responsible Model			
+Prompt Specification	Generate figure or diagram prompts (e.g., “Figure I-A.6: n_s vs r plane”).	ChatGPT			
+Image Generation	Use DALL·E 3 / Midjourney / Stable Diffusion	External image model			
+Validation	Compare visual accuracy vs. data and caption.	Gemini			
+Metadata Embedding	Embed figure DOI, caption, and revision hash.	Perplexity			
+VIII. CONSISTENCY PASS (OPTIONAL LOOP A)					
+					
+Run after every 3–4 sections to ensure global coherence.					
+					
+[CONSISTENCY PASS]					
+├── Verify variable uniformity (M_P vs m_pl)					
+├── Check global constants (Ω_Λ, H₀, η_b)					
+"├── Harmonize terminology (""inflaton"" vs ""scalar driver"")"					
+├── Cross-reference data from Empirical Database Ledger					
+└── Update Section Index Map					
+IX. STYLE HARMONIZATION (OPTIONAL LOOP B)					
+					
+Performed at milestone intervals to ensure stylistic unity.					
+					
+Aspect	Reference Guide	Target Metric			
+Tone	Master Style Guide (v1.0)	Consistency Index ≥ 0.95			
+Terminology	Lexicon Standard File	Zero conflicts			
+Formatting	Markdown ISO Template	Full compliance			
+X. FINAL STAGE AND ARCHIVAL PROTOCOL					
+Step	Artifact	Repository	Notes		
+Final Approval	v2.0 Master Draft	PI Validation Folder	“Approved” tag issued		
+Backup Clone	v2.0 Master + Figures	Git / Drive	Weekly mirror		
+Public Release	PDF / HTML	Journal or Archive.org	DOI assigned		
+Audit Retention	All Logs + Hashes	Local Cold Storage (5 years)	Immutable record		
+					
+End of Charter (v2.2)					
